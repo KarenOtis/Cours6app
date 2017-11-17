@@ -15,11 +15,11 @@ namespace Cours6app
             Console.WriteLine("bonjour,{0}!", nom);
 
             Console.WriteLine("entrez un nombre");
-            int nb1 = int.Parse(Console.ReadLine());
+            float nb1 = float.Parse(Console.ReadLine());
             Console.WriteLine("Entrez un autre nombre");
-            int nbr2 = int.Parse(Console.ReadLine());
-            int somme = nb1 / nbr2;
-            Console.WriteLine("la ration de {0} et {1} est {2}.", nb1, nbr2, somme);
+            float nbr2 = float.Parse(Console.ReadLine());
+            float ratio = nb1 / nbr2;
+            Console.WriteLine("le ratio de {0} et {1} est {2}.", nb1, nbr2, ratio);
         }
     }
 }
