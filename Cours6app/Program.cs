@@ -21,6 +21,11 @@ namespace Cours6app
             float ratio = nb1 / nbr2;
             Console.WriteLine("le ratio de {0} et {1} est {2}.", nb1, nbr2, ratio);
 
+            Console.WriteLine("entrez votre date de naissance");
+            DateTime x = DateTime.Parse(Console.ReadLine());
+            DateTime y = DateTime.Now;
+            TimeSpan duree = y - x;
+            Console.WriteLine("ça fait {1} qu'on était {0}.", x, duree);
         }
     }
 }
