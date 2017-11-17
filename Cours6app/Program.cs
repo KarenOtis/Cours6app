@@ -25,7 +25,17 @@ namespace Cours6app
             DateTime x = DateTime.Parse(Console.ReadLine());
             DateTime y = DateTime.Now;
             TimeSpan duree = y - x;
-            Console.WriteLine("ça fait {1} qu'on était {0}.", x, duree);
+            Console.WriteLine("ça fait {1} qu'on était {0}.", x, duree.Days);
+            int annee = duree.Days / 365;
+            Console.WriteLine("{0} annee", annee);
+            
+
+
+
+
+
+
+
         }
     }
 }
