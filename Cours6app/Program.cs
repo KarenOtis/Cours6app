@@ -20,6 +20,7 @@ namespace Cours6app
             float nbr2 = float.Parse(Console.ReadLine());
             float ratio = nb1 / nbr2;
             Console.WriteLine("le ratio de {0} et {1} est {2}.", nb1, nbr2, ratio);
+
         }
     }
 }
